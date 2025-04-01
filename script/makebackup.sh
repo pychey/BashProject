@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-read -p "Enter file or directory: " source
+read -p "Enter file or directory to Backup: " source
 read -p "Enter backup location: " des
 
 if [ ! -e "$source" ]; then
