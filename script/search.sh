@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-echo "Search File"
 read -p "Enter Directory: " dir
 read -p "Enter file name or extension: " search_term
 

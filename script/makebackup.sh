@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-echo "Making Backup"
 read -p "Enter file or directory: " source
 read -p "Enter backup location: " des
 

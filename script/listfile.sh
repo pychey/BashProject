@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-echo "Listing File"
 read -p "Enter File or directory: " dir
 
 if [ ! -e "$dir" ]; then 
