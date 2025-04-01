@@ -9,5 +9,5 @@ if [ ! -e "$dir" ]; then
 	exit 1
 fi
 
-find "$dir" -type f -name "*$search_term*"
+find "$dir" -type f -maxdepth 1 -name "*$search_term*"
 ./script/logOperation.sh "searched $search_term in $dir"
