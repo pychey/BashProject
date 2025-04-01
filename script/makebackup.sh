@@ -17,6 +17,6 @@ if [ -f "$source" ]; then
 	./script/logOperation.sh "backup $source to $des"
 elif [ -d "$source" ]; then
 	echo "backing up a directory"
-	./script/logOperation.sh "backup $soure to $des" 
+	./script/logOperation.sh "backup $source to $des" 
 	cp -rv "$source" "$des"
 fi

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-read -p "Enter file or directory: " dir
+read -p "Enter file or directory to Compress: " dir
 baseName=$(basename "$dir")
 
 [ ! -e "zip" ] && mkdir "zip"

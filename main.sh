@@ -23,6 +23,5 @@ while true; do
 		5)./script/search.sh;;
 		6)./script/compress.sh;;
 		q)exit 0;;
-		*)echo "Not An Option";;
 	esac
 done

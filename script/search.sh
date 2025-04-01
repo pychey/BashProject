@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-read -p "Enter Directory: " dir
+read -p "Enter Directory to Search in: " dir
 read -p "Enter file name or extension: " search_term
 
 if [ ! -e "$dir" ]; then 
