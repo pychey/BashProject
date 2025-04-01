@@ -1,6 +1,3 @@
-# BashProgram  
-=========================  
-
 ## To Run The Bash Program  
 =========================  
 1. `git clone "repo-link"`  
